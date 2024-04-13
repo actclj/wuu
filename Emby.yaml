@@ -3,8 +3,8 @@ payload:
   - DOMAIN-SUFFIX,embymv.tk
   - DOMAIN-SUFFIX,789.123456.al
   - DOMAIN-SUFFIX,emby.aca.best
-  - DOMAIN-SYFFIX,mius.uk
-  - DOMAIN-SUFFOX,imetyou.top
+  - DOMAIN-SYFFIX,emby-us-v4.mius.uk
+  - DOMAIN-SUFFOX,cf.imetyou.top
   - IP-CIDR,102.223.180.108/32
   - IP-CIDR,141.147.166.107/32
   - IP-CIDR,198.18.0.7/32
