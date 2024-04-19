@@ -1,0 +1,3 @@
+payload:
+  - DOMAIN-SUFFIX,hltv.org
+  - DOMAIN-SUFFIX,jinfan-keji.com
