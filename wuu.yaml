@@ -7,8 +7,6 @@ payload:
   - DOMAIN-SUFFIX,cf.imetyou.top
   - DOMAIN-SUFFIX,emby.pilipiliultra.top
   - DOMAIN-SUFFIX,emby.pilipiliultra.com
-  - DOMAIN-SUFFIX,hltv.org
-  - DOMAIN-SUFFIX,jinfan-keji.com
   - IP-CIDR,102.223.180.108/32
   - IP-CIDR,141.147.166.107/32
   - IP-CIDR,198.18.0.7/32
