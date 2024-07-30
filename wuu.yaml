@@ -1,13 +1,17 @@
 payload:
   - DOMAIN-SUFFIX,misakaf.org
+  - DOMAIN-SUFFIX,emby.aca.best
   - DOMAIN-SUFFIX,embymv.tk
   - DOMAIN-SUFFIX,789.123456.al
-  - DOMAIN-SUFFIX,emby.aca.best
-  - DOMAIN-SUFFIX,emby-us-v4.mius.uk
   - DOMAIN-SUFFIX,cf.imetyou.top
   - DOMAIN-SUFFIX,emby.pilipiliultra.top
   - DOMAIN-SUFFIX,emby.pilipiliultra.com
+  - DOMAIN-SUFFIX,gd.9521732.xyz
+  - DOMAIN-SUFFIX,emby.bangumi.ca
+  - DOMAIN-SUFFIX,embyplus.org
   - IP-CIDR,102.223.180.108/32
   - IP-CIDR,141.147.166.107/32
+  - IP-CIDR,168.138.45/32
   - IP-CIDR,198.18.0.7/32
+  - IP-CIDR,193.123.232.141
   - DOMAIN-KEYWORD,embyvip
