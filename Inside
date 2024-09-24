@@ -1,4 +1,5 @@
 payload:
+#epicdownlad
   - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-SUFFIX,cdn.epicgames.com
   - DOMAIN-SUFFIX,download.epicgames.com
