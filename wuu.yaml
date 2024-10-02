@@ -9,6 +9,8 @@ payload:
   - DOMAIN-SUFFIX,gd.9521732.xyz
   - DOMAIN-SUFFIX,emby.bangumi.ca
   - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN-SUFFIX,fmta.boo
+  - DOMAIN-KEYWORD,embyvip
   - IP-CIDR,102.223.180.108/32
   - IP-CIDR,141.147.166.107/32
   - IP-CIDR,198.18.0.7/32
@@ -18,4 +20,3 @@ payload:
   - IP-CIDR,168.138.45.100/32
   #纸片人
   - IP-CIDR,172.67.197.145/32
-  - DOMAIN-KEYWORD,embyvip
