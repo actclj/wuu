@@ -1,14 +1,20 @@
 payload:
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-SUFFIX,emby.aca.best
-  - DOMAIN-SUFFIX,pilipili.club  #pilipili
-  - DOMAIN-SUFFIX,embymv.link  #peach
-  - IP-CIDR,193.123.232.141/32  #线路一
-  - IP-CIDR,168.138.45.100/32  #线路二
-  - DOMAIN-SUFFIX,embyplus.org  #纸片人
-  - DOMAIN-SUFFIX,gd.9521732.xyz  #纸片人
-  - DOMAIN-SUFFIX,789.123456.al  #TreeDiagram
-  - DOMAIN-SUFFIX,cf.imetyou.top  #paul
-  - DOMAIN-SUFFIX,fmta.boo  #fac
+  #pilipili
+  - DOMAIN-SUFFIX,pilipili.club
+  #peach
+  - DOMAIN-SUFFIX,embymv.link
+  - IP-CIDR,193.123.232.141/32
+  - IP-CIDR,168.138.45.100/32
+  #纸片人
+  - DOMAIN-SUFFIX,embyplus.org
+  - DOMAIN-SUFFIX,gd.9521732.xyz
+  #TreeDiagram
+  - DOMAIN-SUFFIX,789.123456.al
+  #paul
+  - DOMAIN-SUFFIX,cf.imetyou.top
+  #fac
+  - DOMAIN-SUFFIX,fmta.boo
   - IP-CIDR,52.80.225.74/32
   - DOMAIN-KEYWORD,emby
