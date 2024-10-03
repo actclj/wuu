@@ -18,4 +18,6 @@ payload:
   #fac
   - DOMAIN-SUFFIX,fmta.boo
   - IP-CIDR,52.80.225.74/32
+  #nyamedia
+  - DOMAIN-SUFFIX,bangumi.ca
   - DOMAIN-KEYWORD,emby
