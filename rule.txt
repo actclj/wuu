@@ -1,0 +1,49 @@
+[custom]
+
+
+ruleset=⬅️ Inside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.yaml
+ruleset=⬅️ Inside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml
+ruleset=⬅️ Inside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml
+ruleset=➡️ Outside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml
+ruleset=➡️ Outside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.yaml
+ruleset=➡️ Outside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Bing/Bing.yaml
+ruleset=⬅️ Inside,clash-classic:https://raw.githubusercontent.com/Wuu-Ux/Rule/main/Inside.yaml
+ruleset=➡️ Outside,clash-classic:https://raw.githubusercontent.com/Wuu-Ux/Rule/main/Outside.yaml
+ruleset=🕶️ Emby,clash-classic:https://raw.githubusercontent.com/Wuu-Ux/Rule/main/wuu.yaml
+ruleset=📱 Telegram,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+ruleset=🎵 Spotify,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
+ruleset=🎵 Spotify,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+ruleset=📽️ YouTube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=📺 BILIBILI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+ruleset=🔹 IGT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml
+ruleset=🔹 IGT,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml
+ruleset=📢 Google,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Google/Google.yaml
+ruleset=Ⓜ️ Microsoft,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+ruleset=🎮 Game,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
+ruleset=🎮 Game,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml
+ruleset=🌍 Media,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml
+ruleset=➡️ Outside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy_Classical.yaml
+ruleset=⬅️ Inside,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.yaml
+ruleset=⬅️ Inside,[]GEOIP,CN
+ruleset=🐟 Fish,[]FINAL
+
+
+custom_proxy_group=➡️ Outside`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=⬅️ Inside`select`[]DIRECT`[]➡️ Outside`.*
+custom_proxy_group=🕶️ Emby`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=📱 Telegram`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=🎵 Spotify`select`[]DIRECT`[]🇭🇰 Hong Kong`.*
+custom_proxy_group=📽️ YouTube`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=📺 BILIBILI`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`.*
+custom_proxy_group=🔹 IGT`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`.*
+custom_proxy_group=📢 Google`select`[]DIRECT`.*
+custom_proxy_group=Ⓜ️ Microsoft`select`[]DIRECT`[]🇭🇰 Hong Kong`.*
+custom_proxy_group=🎮 Game`select`[]DIRECT`[]🇭🇰 Hong Kong`.*
+custom_proxy_group=🌍 Media`select`[]DIRECT`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=🐟 Fish`select`[]DIRECT`[]➡️ Outside`[]🇭🇰 Hong Kong`[]🇯🇵 Japan`[]🇸🇬 Singapore`.*
+custom_proxy_group=🇭🇰 Hong Kong`url-test`(Hong Kong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 Japan`url-test`(Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 Singapore`url-test`(Singapore)`http://www.gstatic.com/generate_204`300,,50
+
+enable_rule_generator=true
+overwrite_original_rules=true
