@@ -22,4 +22,4 @@ payload:
   - DOMAIN-KEYWORD,emby
   #二刺螈
   - DOMAIN-SUFFIX,ct.cdn.bgp.yt
-  - IP-CIDR,160.30.55.14
+  - IP-CIDR,160.30.55.14/32
