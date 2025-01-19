@@ -1,9 +1,8 @@
 payload:
-  #misakaf
-  - DOMAIN-SUFFIX,misakaf.org
-  - DOMAIN-SUFFIX,emby.aca.best
   #pilipili
   - DOMAIN-SUFFIX,pilipili.club
+  - DOMAIN-SUFFIX,pilipiliultra.com
+  - IP-CIDR,172.67.221.7/32
   #peach
   - DOMAIN-SUFFIX,embymv.link
   - IP-CIDR,193.123.232.141/32
@@ -21,3 +20,6 @@ payload:
   #nyamedia
   - DOMAIN-SUFFIX,bangumi.ca
   - DOMAIN-KEYWORD,emby
+  #二刺螈
+  - DOMAIN-SUFFIX,ct.cdn.bgp.yt
+  - IP-CIDR,160.30.55.14
