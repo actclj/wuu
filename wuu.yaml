@@ -10,16 +10,10 @@ payload:
   #纸片人
   - DOMAIN-SUFFIX,embyplus.org
   - DOMAIN-SUFFIX,gd.9521732.xyz
-  #TreeDiagram
-  - DOMAIN-SUFFIX,789.123456.al
   #paul
-  - DOMAIN-SUFFIX,cf.imetyou.top
-  #fac
-  - DOMAIN-SUFFIX,fmta.boo
-  - IP-CIDR,52.80.225.74/32
+  - DOMAIN-SUFFIX,imetyou.top
   #nyamedia
   - DOMAIN-SUFFIX,bangumi.ca
-  - DOMAIN-KEYWORD,emby
   #二刺螈
   - DOMAIN-SUFFIX,ct.cdn.bgp.yt
   - IP-CIDR,160.30.55.14/32
