@@ -1,8 +1,6 @@
 payload:
   #pilipili
-  - DOMAIN-SUFFIX,pilipili.club
   - DOMAIN-SUFFIX,pilipiliultra.com
-  - IP-CIDR,172.67.221.7/32
   #peach
   - DOMAIN-SUFFIX,embymv.link
   - IP-CIDR,193.123.232.141/32
