@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,bangumi.ca
   #二刺螈
   - DOMAIN-SUFFIX,ct.cdn.bgp.yt
+  - DOMAIN-SUFFIX,media.nijigem.by
   - IP-CIDR,160.30.55.14/32
   #fac
   - DOMAIN-SUFFIX,313445.xyz
