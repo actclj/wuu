@@ -3,7 +3,7 @@ payload:
   - DOMAIN-SUFFIX,pilipiliultra.com
   #peach
   - DOMAIN-SUFFIX,embymv.link
-  - IP-CIDR,152.53.81.68
+  - IP-CIDR,152.53.81.68/32
   #纸片人
   - DOMAIN-SUFFIX,embyplus.org
   - DOMAIN-SUFFIX,gd.9521732.xyz
