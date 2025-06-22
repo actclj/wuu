@@ -2,7 +2,6 @@
 DOMAIN-SUFFIX,pilipiliultra.com
 #peach
 DOMAIN-SUFFIX,embymv.link
-IP-CIDR,152.53.81.68/32
 #纸片人
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,gd.9521732.xyz
@@ -13,6 +12,5 @@ DOMAIN-SUFFIX,bangumi.ca
 #二刺螈
 DOMAIN-SUFFIX,ct.cdn.bgp.yt
 DOMAIN-SUFFIX,media.nijigem.by
-IP-CIDR,160.30.55.14/32
 #fac
 DOMAIN-SUFFIX,313445.xyz
