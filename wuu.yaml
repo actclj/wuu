@@ -17,3 +17,5 @@ payload:
   - IP-CIDR,160.30.55.14/32
   #fac
   - DOMAIN-SUFFIX,313445.xyz
+  #zox
+  - DOMAIN-SUFFIX,zox.show
