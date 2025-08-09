@@ -11,4 +11,4 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-KEYWORD,epicgames
 DOMAIN-KEYWORD,unrealengine
 #加速器
-DOMAIN-SUFFIX,acc.dnsv20.com
+DOMAIN-KEYWORD,acc.dnsv20
