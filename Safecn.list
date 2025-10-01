@@ -2,6 +2,8 @@
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,amemv.com
 
 # 网易云音乐
 DOMAIN-SUFFIX,163.com
@@ -29,3 +31,9 @@ DOMAIN-SUFFIX,cloud.tencent.net
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytecdn.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,toutiaocdn.com
+DOMAIN-SUFFIX,ixigua-cdn.com
+DOMAIN-SUFFIX,douyin-cdn.com
