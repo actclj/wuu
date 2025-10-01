@@ -3,29 +3,3 @@ DOMAIN-SUFFIX,jinfan-keji.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,azure.com
-# Binance 币安
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binanceapi.com
-DOMAIN-SUFFIX,binancefuture.com
-DOMAIN-SUFFIX,binancezh.com
-DOMAIN-SUFFIX,binance.cloud
-# Bybit
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bytick.com
-# OKX (欧易)
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,oklink.com
-# Huobi (火币)
-DOMAIN-SUFFIX,huobi.com
-DOMAIN-SUFFIX,hbfile.net
-DOMAIN-SUFFIX,huobi.li
-# Coinbase
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,coinbasewallet.com
-# KuCoin
-DOMAIN-SUFFIX,kucoin.com
-# Gate.io
-DOMAIN-SUFFIX,gate.io
-DOMAIN-SUFFIX,gateio.ws
