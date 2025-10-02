@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,epicgames-download1-akamaihd.net
 DOMAIN-SUFFIX,epicgames-download2-akamaihd.net
 DOMAIN-SUFFIX,epicgames-download3-akamaihd.net
 DOMAIN-SUFFIX,egdownload.com
+DOMAIN-SUFFIX,fastly-download.epicgames.com
 # 抖音相关
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
