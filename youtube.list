@@ -1,0 +1,13 @@
+# 精简版 YouTube 规则
+# DOMAIN-SUFFIX 规则
+DOMAIN-SUFFIX,youtube.com,Proxy
+DOMAIN-SUFFIX,youtu.be,Proxy
+DOMAIN-SUFFIX,googlevideo.com,Proxy
+DOMAIN-SUFFIX,ytimg.com,Proxy
+DOMAIN-SUFFIX,ggpht.com,Proxy
+# 关键字规则
+DOMAIN-KEYWORD,youtube,Proxy
+# IP-CIDR（可选）
+# IPv4 示例（高流量 IP）
+IP-CIDR,172.110.32.0/21,Proxy,no-resolve
+IP-CIDR,216.73.80.0/20,Proxy,no-resolve
