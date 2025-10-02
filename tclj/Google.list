@@ -7,7 +7,8 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,blogspot.com   # 可选，常用 Blogger 网站
+# 可选，常用 Blogger 网站
+DOMAIN-SUFFIX,blogspot.com
 
 # Google Play 下载与更新专用域名
 DOMAIN,play.googleapis.com
