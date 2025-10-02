@@ -1,0 +1,26 @@
+#steam
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,store.steampowered.com
+#epic
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,epicgames.dev
+#xbox
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxgamepass.com
+#EA
+DOMAIN-SUFFIX,ea.com
+DOMAIN-SUFFIX,eaaccess.com
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,origin.tv
+DOMAIN-SUFFIX,eaassets-a.akamaihd.net
+DOMAIN-SUFFIX,originassets.akamaized.net
+# Rockstar（客户端/商店/下载全部走代理）
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rsg.sc
+DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net

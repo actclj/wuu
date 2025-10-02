@@ -1,9 +1,0 @@
-# 登录与认证
-DOMAIN,login.live.com
-DOMAIN,logincdn.msauth.net
-
-# 核心服务
-DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xboxlive.com
-DOMAIN-SUFFIX,xboxgamepass.com
-DOMAIN-SUFFIX,minecraft.net
