@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,epicgames.dev
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,xboxgamepass.com
-#EA
+#EA（客户端/商店/下载全部走代理）
 DOMAIN-SUFFIX,ea.com
 DOMAIN-SUFFIX,eaaccess.com
 DOMAIN-SUFFIX,origin.com
