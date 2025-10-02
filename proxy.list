@@ -4,12 +4,3 @@ DOMAIN-SUFFIX,jinfan-keji.com
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,azure.com
-
-# Google Play 下载与更新专用域名
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN,play.googleapis.com
-DOMAIN,android.clients.google.com
-DOMAIN,play-lh.googleusercontent.com
