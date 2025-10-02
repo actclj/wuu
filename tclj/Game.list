@@ -3,10 +3,8 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,store.steampowered.com
 #epic
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,fortnite.com
-DOMAIN-SUFFIX,unrealengine.com
-DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,launcher.epicgames.com
+DOMAIN-SUFFIX,store.epicgames.com
 #xbox
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
