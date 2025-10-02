@@ -17,14 +17,17 @@ DOMAIN-SUFFIX,outlook.office365.com
 DOMAIN-SUFFIX,calendar.live.com
 DOMAIN-SUFFIX,microsoft.com
 #epicdownload
-DOMAIN-SUFFIX,eac-cdn.com
-DOMAIN-SUFFIX,easy.ac
-DOMAIN-SUFFIX,easyanticheat.net
-DOMAIN-SUFFIX,epicgames-download1-akamaihd.net
-DOMAIN-SUFFIX,epicgames-download2-akamaihd.net
-DOMAIN-SUFFIX,epicgames-download3-akamaihd.net
-DOMAIN-SUFFIX,egdownload.com
-DOMAIN-SUFFIX,fastly-download.epicgames.com
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,cdn.epicgames.com
+DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN-SUFFIX,egs.epicgames.com
+DOMAIN-SUFFIX,store-images.epicgames.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-KEYWORD,epicgames
+DOMAIN-KEYWORD,unrealengine
 # 抖音相关
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinpic.com
