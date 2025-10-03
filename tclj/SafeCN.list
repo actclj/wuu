@@ -28,30 +28,6 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-KEYWORD,epicgames
 DOMAIN-KEYWORD,unrealengine
-# 抖音相关
-DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,amemv.com
-# 网易云音乐
-DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,126.com
-DOMAIN-SUFFIX,netease.com
-DOMAIN-SUFFIX,music.163.com
-DOMAIN-SUFFIX,api.163.com
-# 支付 / 电商 / 常用服务
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,qqmail.com
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,sina.com.cn
 # 常用国内云服务 / CDN
 DOMAIN-SUFFIX,cloud.tencent.com
 DOMAIN-SUFFIX,cloud.tencent.net
