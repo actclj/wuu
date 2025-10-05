@@ -1,0 +1,1 @@
+自定义数据库https://github.com/MetaCubeX/meta-rules-dat中的geosite-lite.dat代替完整版geosite.dat
