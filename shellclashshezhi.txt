@@ -1,1 +1,18 @@
 自定义数据库https://github.com/MetaCubeX/meta-rules-dat中的geosite-lite.dat代替完整版geosite.dat
+#urltest
+custom_proxy_group=🔷 Proxy`url-test`[]DIRECT`[]🔶 HK`[]🔶 JP`[]🔶 SG`[]🔶 TW`[]🔶 US`.*http://www.gstatic.com/generate_204`300,,50
+手动选择
+custom_proxy_group=🔷 Proxy`select`[]DIRECT`[]🔶 HK`[]🔶 JP`[]🔶 SG`[]🔶 TW`[]🔶 US`.*
+故障转移
+custom_proxy_group=🔷 Proxy`fallback`(香港0|香港 BGP|)`http://www.gstatic.com/generate_204`30
+负载均衡
+custom_proxy_group=🔷 Proxy`load-balance`(香港0|香港 BGP|)`http://www.gstatic.com/generate_204`300,,50,consistent-hashing
+http://www.gstatic.com/generate_204`300,,50
+#测速url
+http://www.gstatic.com/generate_204
+#测速间隔
+`300
+#宽容度，仅当新一次的测试结果中，最佳策略比原选中策略的延迟差大于容忍度时，才会切换至新的策略。
+,,50
+#表示测速间隔为30秒
+`30
