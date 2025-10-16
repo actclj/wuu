@@ -16,27 +16,3 @@ DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamusercontent.com
-#epicdownload
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,cdn.epicgames.com
-DOMAIN-SUFFIX,download.epicgames.com
-DOMAIN-SUFFIX,egs.epicgames.com
-DOMAIN-SUFFIX,store-images.epicgames.com
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-KEYWORD,epicgames
-DOMAIN-KEYWORD,unrealengine
-# 常用国内云服务 / CDN
-DOMAIN-SUFFIX,cloud.tencent.com
-DOMAIN-SUFFIX,cloud.tencent.net
-DOMAIN-SUFFIX,qcloud.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,bytecdn.cn
-DOMAIN-SUFFIX,bytecdn.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,toutiaocdn.com
-DOMAIN-SUFFIX,ixigua-cdn.com
-DOMAIN-SUFFIX,douyin-cdn.com
