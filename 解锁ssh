@@ -1,0 +1,64 @@
+登录小米路由器后台，在浏览器的地址栏中获取 STOK 秘钥并记录。
+第三步 · 开启设备调试模式
+开启设备 tenlnet 端口
+打开浏览器，在浏览器地址栏中输入以下代码，将代码中的 <STOK> 替换成刚刚获取的 STOK 值，并按回车，等待路由器主动请求 OpenWRT 为设备开启 SSH 端口。
+http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/set_sys_time?timezone=%20%27%20%3B%20zz%3D%24%28dd%20if%3D%2Fdev%2Fzero%20bs%3D1%20count%3D2%202%3E%2Fdev%2Fnull%29%20%3B%20printf%20%27%A5%5A%25c%25c%27%20%24zz%20%24zz%20%7C%20mtd%20write%20-%20crash%20%3B%20
+当浏览器出现 "code":0 的提示，则表示操作成功。
+
+通过浏览器请求重启
+
+http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/set_sys_time?timezone=%20%27%20%3b%20reboot%20%3b%20
+打开浏览器，复制上面的内容到地址栏中，并替换 <STOK>，通过浏览器执行完这一步骤后，路由器会重启，请等待设备重启完成。
+
+第四步 · 设置Bdata永久开启telnet
+操作方式
+
+http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/set_sys_time?timezone=%20%27%20%3B%20bdata%20set%20telnet_en%3D1%20%3B%20bdata%20set%20ssh_en%3D1%20%3B%20bdata%20set%20uart_en%3D1%20%3B%20bdata%20commit%20%3B%20
+待路由器重启完成后，重新进入路由器管理后台，获取新的 <STOK>；之后打开浏览器，复制上面的内容到地址栏，并替换 <STOK>。
+
+之后请再次执行通过浏览器请求重启并等待设备重启完成。
+
+通过浏览器请求重启
+
+http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/set_sys_time?timezone=%20%27%20%3b%20reboot%20%3b%20
+打开浏览器，复制上面的内容到地址栏中，并替换 <STOK>，通过浏览器执行完这一步骤后，路由器会重启，请等待重启完成。
+
+如果浏览器反馈显示 "code":0，则表示操作成功。
+
+第五步 · 开启SSH端口
+操作方式
+
+创建 Telnet 会话，链接设备。
+
+在主机地址中输入路由器的管理地址并点击链接即可。无用户名和密码。
+
+
+
+第六步 · 永久开启并固化SSH
+Telnet 登录设备并执行命令
+
+echo -e 'admin\nadmin' | passwd root
+nvram set ssh_en=1
+nvram set telnet_en=1
+nvram set uart_en=1
+nvram set boot_wait=on
+nvram commit
+sed -i 's/channel=.*/channel="debug"/g' /etc/init.d/dropbear
+/etc/init.d/dropbear restart
+mkdir /data/auto_ssh
+cd /data/auto_ssh
+curl -O https://fastly.jsdelivr.net/gh/lemoeo/AX6S@main/auto_ssh.sh
+chmod +x auto_ssh.sh
+uci set firewall.auto_ssh=include
+uci set firewall.auto_ssh.type='script'
+uci set firewall.auto_ssh.path='/data/auto_ssh/auto_ssh.sh'
+uci set firewall.auto_ssh.enabled='1'
+uci commit firewall
+uci set system.@system[0].timezone='CST-8'
+uci set system.@system[0].webtimezone='CST-8'
+uci set system.@system[0].timezoneindex='2.84'
+uci commit
+mtd erase crash
+reboot
+收起
+这将会把设备的 SSH 密码设置为 admin，用户名设置为 root，并永久开启 SSH端口。同时，还会将您的设备从开发模式切换成常规模式。待设备重启完成后，你就可以使用该用户名密码连接设备的 SSH 了。
